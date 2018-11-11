@@ -2,16 +2,20 @@
   <div id="app">
     <div id="nav">
       <Header></Header>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
   </div>
 </template>
 
 <script>
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min';
+import '@/assets/css/style.css';
+// import '@/assets/js/jquery.flexslider-min.js';
 import Header from'@/components/Header.vue';
+// $(function () {
+//   alert('234')
+// });
 export default {
   components:{
     Header,
